@@ -46,3 +46,7 @@ npm i @apollo/client @pothos/plugin-relay
 ```
 npm i @auth0/nextjs-auth0
 ```
+3. Install modules for form views
+```
+npm i react-hook-form react-hot-toast
+```
