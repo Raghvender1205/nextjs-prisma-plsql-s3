@@ -15,3 +15,13 @@ npx prisma migrate dev --name init
 ```
 npm i @prisma/client
 ```
+- Install `ts-node` and make some changes in `tsconfig.json`
+```
+npm i --save-dev ts-node
+```
+- Add `prisma` command in `package.json`
+- Now, seed the database. 
+```
+npx prisma db seed
+```
+If this gives error, might want to change `moduleResolution: 'node'` in `tsconfig.json`
