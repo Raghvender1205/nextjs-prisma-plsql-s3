@@ -1,5 +1,5 @@
 // graphql/context.ts
-// import {  getSession } from '@auth0/nextjs-auth0'
+import {  getSession } from '@auth0/nextjs-auth0'
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 export async function createContext({ req, res }: { req: NextApiRequest, res: NextApiResponse }) {

@@ -39,3 +39,10 @@ npm i @pothos/plugin-prisma @pothos/core
 ```
 npm i @apollo/client @pothos/plugin-relay 
 ```
+
+### Authentication
+1. Copy the `Domain`, `ClientID`, `Client Secret` from OAuth into `.env`
+2. Install OAuth SDK
+```
+npm i @auth0/nextjs-auth0
+```
