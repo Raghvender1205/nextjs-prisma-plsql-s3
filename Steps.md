@@ -24,4 +24,18 @@ npm i --save-dev ts-node
 ```
 npx prisma db seed
 ```
-If this gives error, might want to change `moduleResolution: 'node'` in `tsconfig.json`
+If this gives error, might want to change `moduleResolution: 'node'` in `tsconfig.json` [Refer](https://github.com/cypress-io/cypress/issues/26308)
+
+## GraphQL Queries and Resolvers
+- Install modules
+```
+npm i graphql graphql-yoga
+```
+- Install `pothos`
+```
+npm i @pothos/plugin-prisma @pothos/core
+```
+- Some other modules
+```
+npm i @apollo/client @pothos/plugin-relay 
+```
