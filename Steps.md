@@ -50,3 +50,11 @@ npm i @auth0/nextjs-auth0
 ```
 npm i react-hook-form react-hot-toast
 ```
+
+## Upload Images
+[Tutorial](https://www.prisma.io/blog/fullstack-nextjs-graphql-prisma-4-1k1kc83x3v)
+
+- Install AWS 
+```
+npm i aws-sdk
+```
